@@ -1,0 +1,17 @@
+#%RAML 0.8
+title: My REST API
+version: v1
+baseUri: /api/{version}
+
+/endpoint:
+  get:
+    displayName: Endpoint
+    description: List currently tracked ecosystems, always sorted by name alphabetically
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              {
+                "something": "else"
+              }
