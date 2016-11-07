@@ -1,0 +1,8 @@
+#%RAML 0.8
+title: Base URI Parameter
+baseUri: http://{environment}.api.com
+baseUriParameters:
+  environment:
+    type: string
+    description: environment
+    enum: [ dev, test, prod ]
