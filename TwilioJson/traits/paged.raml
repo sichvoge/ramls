@@ -1,0 +1,41 @@
+#%RAML 1.0 Trait
+# Paging Information
+# If lists are long, the API returns partial results in a single "page". The representation includes the following information:
+# https://www.twilio.com/docs/api/rest/response#response-formats-list-paging-information
+queryParameters:
+  uri:
+    displayName: URI
+    description: |
+      The URI of the current page.
+    type: string
+    required: false
+  firstpageuri:
+    displayName: First Page URI
+    description: |
+      The URI for the first page of this list.
+    type: string
+    required: false
+  nextpageuri:
+    displayName: Next Page URI
+    description: |
+      The URI for the next page of this list.
+    type: string
+    required: false
+  previouspageuri:
+    displayName: Previous Page URI
+    description: |
+      The URI for the previous page of this list.
+    type: string
+    required: false
+  page:
+    displayName: Page
+    description: |
+      The current page number. Zero-indexed, so the first page is 0.
+    type: integer
+    required: false
+  pagesize:
+    displayName: Page Size
+    description: |
+      How many items are in each page.
+    type: integer
+    required: false

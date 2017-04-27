@@ -1,0 +1,7 @@
+#%RAML 1.0 Library
+usage: |
+  Use to define some basic message-related constructs.
+types:
+  MessageInput:
+    schema: !include ../../schemas/request/sendMessageRequestSchema.json
+    example: !include ../../samples/request/sendMessageRequestExample.json

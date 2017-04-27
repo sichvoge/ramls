@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TwilioResponse>
+   <Message>
+      <Sid>SM78aa50996939401f8685486ef8db7d04</Sid>
+      <DateCreated>Fri, 20 Jan 2017 23:55:24 +0000</DateCreated>
+      <DateUpdated>Fri, 20 Jan 2017 23:55:25 +0000</DateUpdated>
+      <DateSent>Fri, 20 Jan 2017 23:55:24 +0000</DateSent>
+      <AccountSid>ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</AccountSid>
+      <To>+5491131081888</To>
+      <From>+16789292944</From>
+      <MessagingServiceSid />
+      <Body />
+      <Status>delivered</Status>
+      <NumSegments>1</NumSegments>
+      <NumMedia>0</NumMedia>
+      <Direction>outbound-api</Direction>
+      <ApiVersion>2010-04-01</ApiVersion>
+      <Price>-0.06910</Price>
+      <PriceUnit>USD</PriceUnit>
+      <ErrorCode />
+      <ErrorMessage />
+      <Uri>/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SM78aa50996939401f8685486ef8db7d04</Uri>
+      <SubresourceUris>
+         <Media>/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SM78aa50996939401f8685486ef8db7d04/Media</Media>
+      </SubresourceUris>
+   </Message>
+</TwilioResponse>

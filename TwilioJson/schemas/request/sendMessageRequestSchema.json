@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "To": {
+            "type": "string"
+        },
+        "From": {
+            "type": "string"
+        },
+        "Body": {
+            "type": "string"
+        },
+        "MessagingServiceSid": {
+            "type": "string"
+        },
+        "MediaUrl": {
+            "type": "string"
+        },
+        "ApplicationSid": {
+            "type": "string"
+        },
+        "MaxPrice": {
+            "type": "string"
+        },
+        "ProvideFeedback": {
+            "type": "boolean"
+        },
+        "StatusCallback": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "To",
+        "From"
+    ]
+}
