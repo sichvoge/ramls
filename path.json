@@ -1,0 +1,22 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Test",
+        "description": "test",
+        "version": "1.6"
+    },
+    "paths": {
+        "/test": {
+            "get": {
+                "summary": "world"
+            }
+        },
+        "/customers": {
+            "put": {}
+        }
+    },
+    "definitions": {
+        "hello": {},
+        "test": {}
+    }
+}
