@@ -1,1 +1,1 @@
-[![Slack Status](https://slack.raml-api/badge.svg)](https://slack.raml-api)
+[![Slack Status](https://slack.raml-api.com/badge.svg)](https://slack.raml-api.com)
